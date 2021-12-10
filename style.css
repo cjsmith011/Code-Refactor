@@ -3,6 +3,15 @@
     margin: 0;
     padding: 0;
   }
+
+
+  .body {
+      background-color: gray;
+
+  }
+  .h2, h3, h4 p {
+      color: rgba(0, 0, 0, .75)
+  }
   header {
     padding: 20px 35px;
     background-color: rgba(0, 0, 0, .75);
@@ -16,7 +25,6 @@
   
   header h1 {
     background-color: rgb(101, 182, 182);
-;
     font-weight: bold;
     margin: 0;
     font-size: 36px;
@@ -41,31 +49,34 @@
   }
   
   header nav ul li a {
-    color: rgb(101, 182, 182);
+
     text-decoration: underline;
     padding: 10px 15px;
     font-size: 1.55vw;
   }
   header nav ul li a:hover {
-    background: #fce138;
-    color: #024e76;
     border-radius: 15px;
     text-shadow: none;
   }
 
-  
-  
-  /* HEADER / NAVBAR STYLES END */
-  
-  /*hero image styling*/
-
-  .photo {
-   url: https://www.publicdomainpictures.net/pictures/310000/velka/stripes-blue-diagonal-background-15714163087Xp.jpg   
-  }
-
+    /* HEADER / NAVBAR STYLES END */
+  /* jumbotron styling*/
+.photo {
+    margin: 5px;
+    flex: 1;
+}
+.photo img {
+    flex: 0 32%;
+    margin-right: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.photo h2 {
+    
+}
   /*About me section styling*/
   .about {
-  background: gray
+
   padding: 40px 35px;
   display: flex;
   justify-content: space-between;
@@ -74,17 +85,70 @@
   }
   /*Work section styling*/
   .work {
-    background: gray;
     padding: 40px 35px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
   }
+  .section-title {
+    font-size: 48px;
+    border-right: 3px solid rgba(0, 0, 0, .75);
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+  }
+  /* work pieces styling START */
+  .work {
+
+  }
+  
+  .work-pieces {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .primary-card {
+    margin: 20px;
+    flex: 1;
+    width: 70%;
+
+  }
+  .cards {
+    margin: 20px;
+    flex: 1;
+    border: 3px solid rgb(101, 182, 182);
+
+  }
+  .card-details {
+      background-color: rgb(101, 182, 182);
+  }
+  .cards img {
+    flex: 0 32%;
+    margin-right: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+
+  
+  .trainer-bio h4 {
+    font-weight: lighter;
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  
+  .trainer-bio p {
+    font-size: 17px;
+  }
+  /* Work pieces styling end */
   
   /* FOOTER STYLES START */
   footer {
-    background: gray;
     padding: 40px 35px;
     display: flex;
     justify-content: space-between;
@@ -100,7 +164,6 @@
   
   footer div {
     line-height: 1.5;
-    text-align: right;
   }
   
   footer a {
