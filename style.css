@@ -67,17 +67,24 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    background-position: 80%;
+    background-position: 100%;
     background-image: url(images/background\ stripe.PNG);
 
 }
+.photo h2 {
+  background-color: rgb(101, 182, 182);
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+  color: rgba(0, 0, 0, .75);
+  margin: 50 auto;
+  width: 20%;
+  
+}
+.photo img {
+  width: 10%
 
-.my-image {
-  padding: 20px;
-  height: 20px;
-  width: 15%;
-  text-align: right;
-  margin: 3.5%;
+
 }
   /*About me section styling*/
   .about {
@@ -119,37 +126,51 @@
 
   .work-pieces {
     margin: 50px auto;
-    width: 80%;
+    width: 60%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
   }
   
-  .primary-card {
+  .surf {
     margin: 20px;
     border: 3px solid rgb(101, 182, 182);
     width: 80%;
-
+    background-image: url(images/surf\ report.jpg);
   }
-  .cards {
+  .LED {
     margin: 20px;
     border: 3px solid rgb(101, 182, 182);
     width: 40%;
-
+    background-image: url(images/LED\ wall\ image.jpg);
+  }
+  .Calculator {
+    margin: 20px;
+    border: 3px solid rgb(101, 182, 182);
+    width: 40%;
+    background-image: url(images/calculator.jpg);
+  } 
+  .puzzle {
+    margin: 20px;
+    border: 3px solid rgb(101, 182, 182);
+    width: 40%;
+    background-image: url(images/pastel\ puzzels.jpg);
+  } 
+  .run-buddy {
+    margin: 20px;
+    border: 3px solid rgb(101, 182, 182);
+    width: 40%;
+    background-image: url(images/run\ buddy.PNG);
   }
   .card-details {
       background-color: rgb(101, 182, 182);
       padding: 25px;
       list-style: 1.3;
-      width: 10%;
+      width: 30%;
       margin-bottom: 10px;
   }
-  .cards img {
-    width: 100%;
-    margin-right: 20px;
 
-  }
   
   /* Work pieces styling end */
   
@@ -160,6 +181,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
+    background: lightgray
   }
   
   footer h2 {
@@ -167,16 +189,21 @@
     margin: 0;
     color: rgba(0, 0, 0, .75);
   }
+  footer div {
+    margin: 5 10 20 25;
+  }
   footer div ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
+ 
+
   }
   footer div ul li a {
     color: rgba(0, 0, 0, .75);
     text-decoration: underline;
-
+    padding: 10px 15px;
+    font-size: 1.55vw;
   }
   /* END FOOTER STYLES */
-}
