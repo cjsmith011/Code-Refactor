@@ -82,9 +82,10 @@
   
 }
 .photo img {
-  width: 10%
-
-
+  width: 10%;
+  top: 30%;
+  right: 140px;
+  position: static;
 }
   /*About me section styling*/
   .about {
@@ -138,39 +139,47 @@
     border: 3px solid rgb(101, 182, 182);
     width: 80%;
     background-image: url(images/surf\ report.jpg);
+    background-size: 100%;
   }
   .LED {
     margin: 20px;
     border: 3px solid rgb(101, 182, 182);
     width: 40%;
     background-image: url(images/LED\ wall\ image.jpg);
+    background-size: 100%;
   }
   .Calculator {
     margin: 20px;
     border: 3px solid rgb(101, 182, 182);
     width: 40%;
     background-image: url(images/calculator.jpg);
+    background-size: 100%;
   } 
   .puzzle {
     margin: 20px;
     border: 3px solid rgb(101, 182, 182);
     width: 40%;
     background-image: url(images/pastel\ puzzels.jpg);
+    background-size: 100%;
   } 
   .run-buddy {
     margin: 20px;
     border: 3px solid rgb(101, 182, 182);
     width: 40%;
     background-image: url(images/run\ buddy.PNG);
+    background-size: 100%;
   }
   .card-details {
       background-color: rgb(101, 182, 182);
-      padding: 25px;
+      padding: 5px;
       list-style: 1.3;
-      width: 30%;
+      width: 40%;
       margin-bottom: 10px;
+      margin-top: 30px;
   }
-
+.card-details p {
+  font-size: 11px;
+}
   
   /* Work pieces styling end */
   
@@ -190,7 +199,11 @@
     color: rgba(0, 0, 0, .75);
   }
   footer div {
-    margin: 5 10 20 25;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
   }
   footer div ul {
     display: flex;
@@ -203,6 +216,7 @@
   footer div ul li a {
     color: rgba(0, 0, 0, .75);
     text-decoration: underline;
+    font-weight: bold;
     padding: 10px 15px;
     font-size: 1.55vw;
   }
