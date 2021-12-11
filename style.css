@@ -49,7 +49,7 @@
   }
   
   header nav ul li a {
-
+    color:rgb(101, 182, 182);
     text-decoration: underline;
     padding: 10px 15px;
     font-size: 1.55vw;
@@ -62,89 +62,92 @@
     /* HEADER / NAVBAR STYLES END */
   /* jumbotron styling*/
 .photo {
-    margin: 5px;
-    flex: 1;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-position: 80%;
+    background-image: url(images/background\ stripe.PNG);
+
 }
-.photo img {
-    flex: 0 32%;
-    margin-right: 0;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-.photo h2 {
-    
+
+.my-image {
+  padding: 20px;
+  height: 20px;
+  width: 15%;
+  text-align: right;
+  margin: 3.5%;
 }
   /*About me section styling*/
   .about {
-
-  padding: 40px 35px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width: 100%;
-  }
-  /*Work section styling*/
-  .work {
     padding: 40px 35px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
   }
+  .about-details {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .about h2 {
+    text-align: right;
+  }
+
   .section-title {
     font-size: 48px;
     border-right: 3px solid rgba(0, 0, 0, .75);
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
-    width: 50%;
+    width: 20%;
   }
-  /* work pieces styling START */
+  /*Work section styling*/
   .work {
-
-  }
-  
-  .work-pieces {
+    background: lightgray;
     width: 100%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  
-  .primary-card {
+
+  .work-pieces {
     margin: 20px;
     flex: 1;
-    width: 70%;
+   
+  }
+  
+  .primary-card {
+
 
   }
   .cards {
     margin: 20px;
     flex: 1;
     border: 3px solid rgb(101, 182, 182);
+    width: 30%;
 
   }
   .card-details {
       background-color: rgb(101, 182, 182);
+      padding: 25px;
+      list-style: 1.3;
+      width: 10%;
+      margin-bottom: 10px;
   }
   .cards img {
-    flex: 0 32%;
-    margin-right: 0;
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-  
+    width: 100%;
+    margin-right: 20px;
 
-  
-  .trainer-bio h4 {
-    font-weight: lighter;
-    font-size: 22px;
-    margin-bottom: 15px;
   }
   
-  .trainer-bio p {
-    font-size: 17px;
-  }
   /* Work pieces styling end */
   
   /* FOOTER STYLES START */
