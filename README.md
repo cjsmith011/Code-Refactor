@@ -1,45 +1,20 @@
-Professional Portfolio instructions: 
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+Professional Portfolio for Carlie Smith
 
-Technical Acceptance Criteria: 40%
-Satisfies all of the preceding acceptance criteria.
+Thank you for visiting my page.
 
-Deployment: 32%
-Application deployed at live URL.
+I'm currently in the Sales channel with 22 years of operations experience prior to that.
+Coding is a new skill and channel for me, I am attending the MSU Boot Camp.
 
-Application loads with no errors.
+5 of my projects are featured on this page and you may access my work on the
+Run Buddy website to see my coding live.
 
-Application GitHub URL submitted.
+Building this site was a challenge for me and helped build my CSS skills.  I am still
+learning about flexboxes and much of the screen sizing for responsive layouts.  Placement of items on the screen is another area that I need to practice more so that I can understand how to manage the layout.
 
-GitHub repository contains application code.
+The work we did on Run Buddy in the modules was invaluable in completing this challenge, I was able to use a lot of that work, rethink it and build some understanding of what we did and why to make the Portfolio. 
 
-Application Quality: 15%
-Application resembles the mock-up functionality provided in the Challenge instructions.
-Repository Quality: 13%
-Repository has a unique name.
+Deployment: https://github.com/cjsmith011/Professional-Portfolio.git
 
-Repository follows best practices for file structure and naming conventions.
+GitHub repo available at: https://cjsmith011.github.io/Professional-Portfolio/
 
-Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-Repository contains multiple descriptive commit messages.
-
-Repository contains quality readme with description, screenshot, link to deployed application.
-
-You are required to submit BOTH of the following for review:
-
-The URL of the deployed application.
-
-The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
+Created by: cjsmith011
